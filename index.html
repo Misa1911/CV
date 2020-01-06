@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Misael Florentino Canales</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- links de materialize -->
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     
+             
+</head>
+
+
+<body>
+    <!-- inicio navbar -->
+    <nav>
+        <div class="nav-wrapper">
+            <img src="img/logo.png?style=centerme" id="logo-nav" class="brand-logo center" alt="misael florentino">
+            <ul id="slide-out" class="sidenav">
+                <li><div class="user-view">
+                  <div class="background">
+                    <img src="images/office.jpg">
+                  </div>
+                  <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
+                  <a href="#name"><span class="white-text name">John Doe</span></a>
+                  <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+                </div></li>
+                <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+                <li><a href="#!">Second Link</a></li>
+                <li><div class="divider"></div></li>
+                <li><a class="subheader">Subheader</a></li>
+                <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+              </ul>
+            <a href="#" data-target="slide-out" class="button-collapse show-on-large sidenav-trigger"><i class="material-icons">menu</i></a>
+
+        </div>
+    </nav>
+    <!-- fin navbar -->
+
+    
+    <!-- inicio main -->
+    <main>
+        <!-- incio conoceme -->
+        <div class="parallax-container">
+            <div class="container elementos_centrados">
+              <h1 class="center nombre">Misael Florentino Canales</h1>
+              <img class="imagen_perfil" src="img/perfil.jpg" alt="">
+            </div>
+            <div class="parallax parallax_custom_color"><img class="imagen_parallax"src="img/parallax_conoceme.jpg"></div>
+        </div>
+        
+        <div class="container" id="conoceme"> 
+            <h2 class="center">Conóceme </h2> 
+            <div class="row">
+                <div class="col m6 conoceme" >
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, eveniet! Beatae sequi eveniet repudiandae dolore. A dolorum, mollitia tempore architecto itaque repellendus nesciunt quis minus minima nisi, recusandae magnam necessitatibus.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum officiis ex corrupti odit praesentium perferendis cumque deserunt, deleniti illo modi minima nemo provident necessitatibus iure ipsum aspernatur error nobis dolores.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quam ducimus incidunt eaque, voluptate in illum deserunt suscipit omnis officiis ut exercitationem voluptas doloremque reiciendis laboriosam eum, obcaecati non corrupti?</p>
+                </div>
+
+                <div class="col m6 center" >
+                    <img src="img/conoceme_2.jpg" alt="" class="materialboxed" id="img_conoceme">
+                </div>
+            </div>
+        </div>
+        <!-- fin conoceme -->
+    
+
+
+
+
+
+
+
+
+
+    </main>
+    <!-- fin main -->
+
+
+    <!-- inicio footer -->
+    <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Footer Content</h5>
+              <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Links</h5>
+                <ul>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2020 Misael Florentino
+          <a class="grey-text text-lighteright" href="#!">More Links</a>
+          </div>
+        </div>
+    </footer>
+    <!-- fin footer -->
+      
+
+    <!-- inicio scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+            $('.parallax').parallax();
+            $('.materialboxed').materialbox();
+        });
+    </script>
+    <!-- fin scripts -->
+
+</body>
+</html>

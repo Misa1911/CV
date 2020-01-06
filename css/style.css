@@ -1,0 +1,50 @@
+.nav-wrapper{
+    background-color: #00bfa5;
+    border-top: 5px solid rgb(101, 109, 94);
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main{
+    flex: 1 0 auto;
+}
+
+.page-footer{
+    background-color: #00bfa5 !important;
+    /* border-top: 5px solid rgb(101, 109, 94); */
+}
+
+.imagen_perfil{
+    width: 250px;
+    border-radius: 50%;
+}
+
+.nombre{
+    color: white;
+    margin-top: 10%
+}
+
+.parallax_custom_color{
+    background:#4CAF50;
+}
+
+.imagen_parallax{
+    opacity: 0.8!important;
+}
+
+.elementos_centrados{
+    text-align: center;
+}
+
+
+#logo-nav{
+    width: 90px;
+}
+
+#img_conoceme{
+    width: 250px;
+}
